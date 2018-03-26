@@ -65,3 +65,8 @@ body, html {
 .hero {
 	margin-bottom: 25px;
 }
+
+.project-screenshot img {
+  width: 100%;
+  padding: 10px;
+}
