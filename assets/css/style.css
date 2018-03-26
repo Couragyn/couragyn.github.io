@@ -14,11 +14,11 @@ body, html {
 /* The hero image */
 .hero-image {
     /* The image used */
-    background-image: url("./assets/images/hero.jpg");
+    background-image: url("../images/hero.jpg");
 
     /* Set a specific height */
-/*    height: 50%;
-*/
+    height: 100%;
+
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
