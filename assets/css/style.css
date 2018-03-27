@@ -43,16 +43,48 @@ body, html {
 }
 
 
-.img-responsive {
+.img-header {
 	height: 45px;
 	padding-right: 10px;
+}
+
+.img-company {
+  height: 60px;
+  float:right
+}
+
+.img-tech {
+  height: 60px;
 }
 
 .hero {
 	margin-bottom: 25px;
 }
 
-.project-screenshot img {
+.project-screenshot {
   width: 100%;
   padding: 10px;
+}
+
+.offset-anchor:before {
+  content:"";
+  display:block;
+  height:90px; /* fixed header height*/
+  margin:-90px 0 0; /* negative fixed header height */
+}
+
+ul.navbar-nav li.dropdown:hover ul.dropdown-menu {
+    display: block;
+}
+
+.img-centre {
+  text-align: center;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+hr {
+  border-top: 3px double #8c8b8b;
 }

@@ -12,14 +12,21 @@
 
     <title>Couragyn Chretien</title>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
-    <script src="assets/js/bootstrap.min.js"></script>
-
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -31,195 +38,327 @@
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="#">Couragyn Chretien</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
+          <li class="dropdown">
+	        <a class="nav-link dropdown-toggle" href="#experience" aria-haspopup="true" aria-expanded="false">
+	          Experience
+	        </a>
+	        <ul class="dropdown-menu">
+	          <a class="dropdown-item" href="#highway">Web Developer: Highway Three Solutions</a>
+	          <a class="dropdown-item" href="#lighthouseMentor">Mentor: Lighthouse Labs</a>
+	          <a class="dropdown-item" href="#bell">Junior Programmer: Bell Aliant</a>
+	          <a class="dropdown-item" href="#velsoft">Programmer: Velsoft</a>
+	          <a class="dropdown-item" href="#lrl">Sharepoint Developer: LED Roadway Lighting</a>
+	        </ul>          
+	      </li>
+          <li class="dropdown">
+	        <a class="nav-link dropdown-toggle" href="#education" aria-haspopup="true" aria-expanded="false">
+	          Education
+	        </a>
+	        <ul class="dropdown-menu">
+	          <a class="dropdown-item" href="#dal">Dalhousie University</a>
+	          <a class="dropdown-item" href="#lighthouseStudent">Lighthouse Labs</a>
+	        </ul>          
+	      </li>
+          <li class="dropdown">
+	        <a class="nav-link dropdown-toggle" href="#project" aria-haspopup="true" aria-expanded="false">
+	          Projects
+	        </a>
+	        <ul class="dropdown-menu">
+	          <a class="dropdown-item" href="#vote">Vote BC</a>
+	          <a class="dropdown-item" href="#football">Fantasy Football Survivor</a>
+	          <a class="dropdown-item" href="#chatty">Chatty App</a>
+	          <a class="dropdown-item" href="#decision">Decision Maker</a>
+	          <a class="dropdown-item" href="#blackjack">Blackjack</a>
+	        </ul>          
+	      </li>
           <li class="nav-item">
             <a class="nav-link" href="#skills">Skills</a>
           </li>
-          <li class="nav-item dropdown">
-	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          Resume
-	        </a>
-	        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-	          <a class="dropdown-item" href="#">View PDF</a>
-	          <a class="dropdown-item" href="#">Save PDF</a>
-	          <a class="dropdown-item" href="#">Print PDF</a>
-	        </div>
-	      </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="./assets/resume.pdf">Resume</a>
+          </li>
         </ul>
         <div class="row text-center">
 			<div class="col-xs-4">
 				<a href="mailto:couragyn@gmail.com">
-					<img id="gmail" src="assets/images/gmail.png" class="img-responsive" alt="Email">
+					<img id="gmail" src="assets/images/gmail.png" class="img-header" alt="Email">
 				</a>
 			</div>
 			<div class="col-xs-4">
 				<a href="http://www.linkedin.com/in/couragyn">
-					<img src="assets/images/linkedin.png" class="img-responsive" alt="LinkedIn">
+					<img src="assets/images/linkedin.png" class="img-header" alt="LinkedIn">
 				</a>
 			</div>
 			<div class="col-xs-4">
 				<a href="https://github.com/couragyn">
-					<img src="assets/images/github.png" class="img-responsive" alt="Github">
+					<img src="assets/images/github.png" class="img-header" alt="Github">
 				</a>
 			</div>
 		</div>
-      </div>
     </nav>
 
   	<section class="hero">
-		  <div class="hero-text">
-			<h1>*UNDER CONSTRUCTION*</h1>
-		    <h1>Couragyn Chretien</h1>
-		    <h2>Web Developer</h2>
-		    <h4>Couragyn@gmail.com</h4>
-		  </div>
-		</section>
+	  <div class="hero-text">
+		<h1>*UNDER CONSTRUCTION*</h1>
+	    <h1>Couragyn Chretien</h1>
+	    <h2>Web Developer</h2>
+	    <h4>Couragyn@gmail.com</h4>
+	  </div>
+	</section>
     <main role="main" class="container">
     	<div id="experience" class="jumbotron">
     		<div class="container-fluid">
     			<h1>Experience</h1>
     			<hr class="my-4">
-  			  <div class="container-fluid">
-  			  	<h2>Web Developer</h2>
+  			  	<div id="highway" class="container-fluid offset-anchor">
+  			  		<a href="http://www.highwaythreesolutions.com/">
+	    				<img src="assets/images/h3.png" class="img-company" alt="H3">
+	    			</a>
+	  			  	<h2 >Web Developer</h2>
 	    			<h3>Highway Three Solutions</h3>
 	    			<h5>Victoria, BC</h5>
 	    			<h5>July 2017 - Current</h5>
 	    			<p>Created applications and maintained existing applications for a variety of clients in and Agile environment. Created feasibility reports on prospective technologies and features based on existing infrastructure.</p>
-	    			<ul>
-	    				<li>Java</li>
-	    				<li>Python</li>
-	    				<li>Ruby on Rails</li>
-	    				<li>SQL</li>
-	    			</ul>
+	    			<table class="table borderless">
+	    				<tr>
+	    					<td align="center"><img src="assets/images/java.jpeg" class="img-tech" alt="Java"></td>
+	    					<td align="center"><img src="assets/images/python.png" class="img-tech" alt="Pyton"></td>
+	    					<td align="center"><img src="assets/images/rubyRails.png" class="img-tech" alt="Ruby on Rails"></td>
+	    					<td align="center"><img src="assets/images/php.png" class="img-tech" alt="PHP"></td>
+	    					<td align="center"><img src="assets/images/sql.png" class="img-tech" alt="SQL"></td>
+	    				</tr>
+	    				<tr>
+	    					<td align="center">Java, Spring, Hibernate</td>
+	    					<td align="center">Python</td>
+	    					<td align="center">Ruby on Rails</td>
+	    					<td align="center">PHP</td>
+	    					<td align="center">SQL</td>
+	    				</tr>
+	    			</table>
 	    		</div>
 	    		<hr class="my-4">
-	    		<div class="container-fluid">
+	    		<div id="lighthouseMentor" class="container-fluid offset-anchor">
+	    			<a href="https://lighthouselabs.ca/">
+	    				<img src="assets/images/lhl.png" class="img-company" alt="LHL">
+	    			</a>
 	    			<h2>Mentor</h2>
 	    			<h3>Lighthouse Labs</h3>
 	    			<h5>Victoria, BC</h5>
 	    			<h5>October 2017 - Current</h5>
 	    			<p>Provided guidance and advise for Web Development Bootcamp Students.</p>
-	    			<ul>
-	    				<li>NodeJS</li>
-	    				<li>Ruby on Rails</li>
-	    			</ul>
+	    			<table class="table borderless">
+	    				<tr>
+	    					<td align="center"><img src="assets/images/node.png" class="img-tech" alt="Node"></td>
+	    					<td align="center"><img src="assets/images/rubyRails.png" class="img-tech" alt="Ruby on Rails"></td>
+	    					<td align="center"><img src="assets/images/postgres.png" class="img-tech" alt="postgres"></td>
+	    					<td align="center"><img src="assets/images/mongo.png" class="img-tech" alt="MongoDB"></td>
+	    				</tr>
+	    				<tr>
+	    					<td align="center">NodeJS</td>
+	    					<td align="center">Ruby on Rails</td>
+	    					<td align="center">PostgreSQL</td>
+	    					<td align="center">MongoDB</td>
+	    				</tr>
+	    			</table>
 	    		</div>
 	    		<hr class="my-4">
-	    		<div class="container-fluid">
+	    		<div id="velsoft" class="container-fluid offset-anchor">
+	    			<a href="https://www.velsoft.com/">
+	    				<img src="assets/images/velsoft.png" class="img-company" alt="Velsoft">
+	    			</a>
 	    			<h2>Programmer</h2>
 	    			<h3>Velsoft</h3>
 	    			<h5>Halifax, NS</h5>
 	    			<h5>April 2014 - August 2014</h5>
 	    			<strong>Work Term</strong>
 	    			<p>Maintained the existing system by adding new features and modules, as well as hunting bugs.</p>
-	    			<ul>
-	    				<li>NodeJS</li>
-	    				<li>MongoDB</li>
-	    			</ul>
+	    			<table class="table borderless">
+	    				<tr>
+	    					<td align="center"><img src="assets/images/node.png" class="img-tech" alt="Node"></td>
+	    					<td align="center"><img src="assets/images/mongo.png" class="img-tech" alt="MongoDB"></td>
+	    				</tr>
+	    				<tr>
+	    					<td align="center">NodeJS</td>
+	    					<td align="center">MongoDB</td>
+	    				</tr>
+	    			</table>
 	    		</div>
 	    		<hr class="my-4">
-	    		<div class="container-fluid">
+	    		<div id="bell" class="container-fluid offset-anchor">
+	    			<a href="https://aliant.bell.ca/">
+	    				<img src="assets/images/bell.png" class="img-company" alt="Bell">
+	    			</a>
 	    			<h2>Junior Programmer</h2>
 	    			<h3>Bell Aliant</h3>
 	    			<h5>Halifax, NS</h5>
 	    			<h5>April 2013 – Aug 2013</h5>
 	    			<strong>Work Term</strong>
 	    			<p>Created custom intranet. Made specialised SharePoint spaces. Developed reports with Visual Basic.</p>
-	    			<ul>
-	    				<li>SharePoint</li>
-	    				<li>Visual Basic</li>
-	    			</ul>
+	    			<table class="table borderless">
+	    				<tr>
+	    					<td align="center"><img src="assets/images/sharepoint2.png" class="img-tech" alt="sharepoint"></td>
+	    					<td align="center"><img src="assets/images/vb.png" class="img-tech" alt="vb"></td>
+	    				</tr>
+	    				<tr>
+	    					<td align="center">SharePoint</td>
+	    					<td align="center">Visual Basic</td>
+	    				</tr>
+	    			</table>
 	    		</div>
 	    		<hr class="my-4">
-	    		<div class="container-fluid">
+	    		<div id="lrl" class="container-fluid offset-anchor">
+	    			<a href="https://www.ledroadwaylighting.com">
+	    				<img src="assets/images/lrl.png" class="img-company" alt="LRL">
+	    			</a>
 	    			<h2>Sharepoint Developer</h2>
 	    			<h3>LED Roadway Lighting</h3>
 	    			<h5>Halifax, NS</h5>
 	    			<h5>April 2012 – Aug 2012</h5>
 	    			<strong>Work Term</strong>
 	    			<p>Developed custom workflows in SharePoint. Provided Help Desk support.</p>
-	    			<ul>
-	    				<li>SharePoint Designer</li>
-	    				<li>Microsoft Office 365</li>
-	    			</ul>
+	    			<table class="table borderless">
+	    				<tr>
+	    					<td align="center"><img src="assets/images/sharepoint2.png" class="img-tech" alt="sharepoint"></td>
+	    				</tr>
+	    				<tr>
+	    					<td align="center">SharePoint</td>
+	    				</tr>
+	    			</table>
 	    		</div>
     		</div>
     	</div>
+
     	<div id="education" class="jumbotron">
     		<div class="container-fluid">
     			<h1>Education</h1>
     			<hr class="my-4">
-    			<div class="container-fluid">
+    			<div id="dal" class="container-fluid offset-anchor">
+    				<a href="https://www.dal.ca/faculty/site/disciplines/it/informatics.html">
+	    				<img src="assets/images/dal.png" class="img-company" alt="Dalhousie">
+	    			</a>
 	    			<h3>Dalhousie University</h3>
-	    			<h5>Bachelor of Informatics</h5>
-	    			<h5>Minor in Management</h5>
-	    			<h5>Computer Science Faculty</h5>
+	    			<h6>Bachelor of Informatics</h6>
+	    			<h6><li>Now Applied Computer Science</li></h6>
+	    			<h6>Minor in Management</h6>
 		    		<h5>2010 – 2015</h5>
 		    	</div>
 		    	<hr class="my-4">
-		    	<div class="container-fluid">
+		    	<div id="lighthouseStudent" class="container-fluid offset-anchor">
+		    		<a href="https://www.lighthouselabs.ca/web-bootcamp">
+	    				<img src="assets/images/lhl.png" class="img-company" alt="LHL">
+	    			</a>
 	    			<h3>Lighthouse Labs</h3>
-	    			<h5>Web Development Bootcamp</h5>
+	    			<h6>Web Development Bootcamp</h6>
 		    		<h5>2017</h5>
 		    	</div>
     		</div>
     	</div>
-    	<div id="projects" class="jumbotron">
+    	<div id="project" class="jumbotron">
     		<div class="container-fluid">
     			<h1>Projects</h1>
 		    	<hr class="my-4">
-		    	<div class="container-fluid project-screenshot">
-		    		<h2>Vote BC</h2>
-		    		<img src="assets/images/voteBc.png" alt="vote-bc">
-		    		<a href="http://www.vote-bc.ca/" class="btn btn-link" role="button">Vote BC</a>
-						<a href="https://github.com/Couragyn/vote_bc" class="btn btn-link" role="button">Github</a>
-						<p>Provides candidate and past voting information on various districts for BC General Elections.</p>
-		    		<ul>
-	    				<li>Ruby on Rails</li>
-	    				<li>RSpec</li>
-	    				<li>Google APIs</li>
-	    			</ul>
-		    	</div>
-		    	<hr class="my-4">
-		    	<div class="container-fluid">
+		    	<div id="football" class="container-fluid offset-anchor">
 		    		<h2>Fantasy Football Survivor</h2>
-		    		<img src="assets/images/voteBc.png" alt="vote-bc">
-		    		<a href="http://www.vote-bc.ca/" class="btn btn-link" role="button">Vote BC</a>
-						<a href="https://github.com/Couragyn/vote_bc" class="btn btn-link" role="button">Github</a>
-						<p>Provides candidate and past voting information on various districts for BC General Elections.</p>
-		    		<ul>
-	    				<li>Ruby on Rails</li>
-	    				<li>RSpec</li>
-	    				<li>Google APIs</li>
-	    			</ul>
+		    		<h5><i>Under Construction</i></h5>
+<!-- 		    		<img class="project-screenshot" src="assets/images/voteBc.png" alt="vote-bc">
+ -->	    			<table class="table borderless">
+	    				<tr>
+	    					<td align="center"><img src="assets/images/rubyRails.png" class="img-tech" alt="Ruby on Rails"></td>
+	    					<td align="center"><img src="assets/images/postgres.png" class="img-tech" alt="postgres"></td>
+	    					<td align="center"><img src="assets/images/docker.png" class="img-tech" alt="docker"></td>
+	    					<td align="center"><img src="assets/images/bootstrap.png" class="img-tech" alt="Bootstrap"></td>
+	    				</tr>
+	    				<tr>
+	    					<td align="center">Ruby on Rails</td>
+	    					<td align="center">PostgreSQL</td>
+	    					<td align="center">Docker</td>
+	    					<td align="center">Bootstrap</td>
+	    				</tr>
+	    			</table>
+	    			<p>A new way to play fantasy football.</p>
+<!-- 	    			<a href="" class="btn btn-link" role="button">Fantasy Football Survivor</a>	 -->
+					<a href="https://github.com/Couragyn/ffsurvivor" class="btn btn-link" role="button">Github</a>
 		    	</div>
 		    	<hr class="my-4">
-		    	<div class="container-fluid">
-
+		    	<div id="vote" class="container-fluid offset-anchor">
+		    		<h2>Vote BC</h2>
+		    		<img class="project-screenshot" src="assets/images/voteBc.png" alt="vote-bc">
+	    			<table class="table borderless">
+	    				<tr>
+	    					<td align="center"><img src="assets/images/rubyRails.png" class="img-tech" alt="Ruby on Rails"></td>
+	    					<td align="center"><img src="assets/images/postgres.png" class="img-tech" alt="postgres"></td>
+	    					<td align="center"><img src="assets/images/googleDev.png" class="img-tech" alt="googleDev"></td>
+	    					<td align="center"><img src="assets/images/heroku.png" class="img-tech" alt="Heroku"></td>
+	    				</tr>
+	    				<tr>
+	    					<td align="center">Ruby on Rails</td>
+	    					<td align="center">PostgreSQL</td>
+	    					<td align="center">Google APIs</td>
+	    					<td align="center">Heroku</td>
+	    				</tr>
+	    			</table>
+	    			<p>Provides candidate and past voting information on various districts for BC General Elections.</p>
+	    			<a href="http://www.vote-bc.ca/" class="btn btn-link" role="button">Vote BC</a>
+					<a href="https://github.com/Couragyn/vote_bc" class="btn btn-link" role="button">Github</a>
+		    	</div>
+		    	<hr class="my-4">
+		    	<div id="chatty" class="container-fluid offset-anchor">
+		    		<h2>Chatty App</h2>
+	    			<table class="table borderless">
+	    				<tr>
+	    					<td align="center"><img src="assets/images/react.png" class="img-tech" alt="React"></td>
+	    					<td align="center"><img src="assets/images/node.png" class="img-tech" alt="NodeJS"></td>
+	    					<td align="center"><img src="assets/images/websocket.png" class="img-tech" alt="Websockets"></td>
+	    				</tr>
+	    				<tr>
+	    					<td align="center">React</td>
+	    					<td align="center">NodeJS</td>
+	    					<td align="center">Websockets</td>
+	    				</tr>
+	    			</table>
+		    		<p>Real-time chat application built on the Client side.</p>
+		    		<a href="https://github.com/Couragyn/chattyApp" class="btn btn-link" role="button">Github</a>
+		    	</div>
+		    	<hr class="my-4">
+		    	<div id="decision" class="container-fluid offset-anchor">
+		    		<h2>Decision Maker</h2>
+<!-- 		    		<img class="project-screenshot" src="assets/images/voteBc.png" alt="vote-bc">
+ -->	    			<table class="table borderless">
+	    				<tr>
+	    					<td align="center"><img src="assets/images/node.png" class="img-tech" alt="Node"></td>
+	    					<td align="center"><img src="assets/images/express.png" class="img-tech" alt="Express"></td>
+	    					<td align="center"><img src="assets/images/postgres.png" class="img-tech" alt="postgreSQL"></td>
+	    					<td align="center"><img src="assets/images/knex.png" class="img-tech" alt="knex"></td>
+	    					<td align="center"><img src="assets/images/heroku.png" class="img-tech" alt="Heroku"></td>
+	    				</tr>
+	    				<tr>
+	    					<td align="center">NodeJS</td>
+	    					<td align="center">Express</td>
+	    					<td align="center">PostgreSQL</td>
+	    					<td align="center">Knex</td>
+	    					<td align="center">Heroku</td>
+	    				</tr>
+	    			</table>
+	    			<p>Polling app that aggregates votes for administrator.</p>
+<!-- 	    			<a href="http://www.vote-bc.ca/" class="btn btn-link" role="button">Vote BC</a>
+ -->					<a href="https://github.com/Couragyn/vote_bc" class="btn btn-link" role="button">Github</a>
 
 		    	</div>
 		    	<hr class="my-4">
-		    	<div class="container-fluid">
-
-
-		    	</div>
-		    	<hr class="my-4">
-		    	<div class="container-fluid">
-
-
+		    	<div id="blackjack" class="container-fluid offset-anchor">
+		    		<h2>Blackjack</h2>
+<!-- 		    		<img class="project-screenshot" src="assets/images/voteBc.png" alt="vote-bc">
+ -->	    			<table class="table borderless">
+	    				<tr>
+	    					<td align="center"><img src="assets/images/python.png" class="img-tech" alt="Python"></td>
+	    				</tr>
+	    				<tr>
+	    					<td align="center">Python</td>
+	    				</tr>
+	    			</table>
+	    			<p>A Blackjack program written in Python.</p>
+					<a href="https://github.com/Couragyn/blackjack" class="btn btn-link" role="button">Github</a>
 		    	</div>
     		</div>
     	</div>
