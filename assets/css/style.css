@@ -31,31 +31,17 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  background: rgba(0,0,0,.4);
+  background: rgba(0,0,0,.6);
   display: inline-block;
   padding: 10px;
 }
 
-.hero-text h1 {
+.hero-text h1, .hero-text h2, .hero-text h4 {
 	color: #FFFFE0;
-	-webkit-text-stroke: 1px black;
   font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 }
 
-.hero-text h2 {
-	color: #FFFFE0;
-	-webkit-text-stroke: 1px black;
-  font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-}
-
-.hero-text h4 {
-	color: #FFFFE0;
-	-webkit-text-stroke: 1px black;
-  font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-}
 
 .img-responsive {
 	height: 45px;
