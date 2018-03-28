@@ -37,11 +37,14 @@ body, html {
 }
 
 .hero-text h1, .hero-text h2, .hero-text h4 {
-	color: #FFFFE0;
+	color: #E8ECEF;
   font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 }
 
+.hero-text h1 {
+  font-size: 300%;
+}
 
 .img-header {
 	height: 45px;
@@ -49,7 +52,7 @@ body, html {
 }
 
 .img-company {
-  height: 60px;
+  height: 75px;
   float:right
 }
 
@@ -82,7 +85,7 @@ ul.navbar-nav li.dropdown:hover ul.dropdown-menu {
 }
 
 .borderless td, .borderless th {
-    border: none;
+  border: none;
 }
 
 hr {

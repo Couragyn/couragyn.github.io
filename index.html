@@ -8,8 +8,8 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Couragyn Chretien resume portfolio">
     <meta name="author" content="Couragyn Chretien">
-    <link rel="icon" href="../../favicon.ico">
-
+<!--     <link rel="icon" href="../../favicon.ico">
+ -->
     <title>Couragyn Chretien</title>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -38,7 +38,7 @@
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="#">Couragyn Chretien</a>
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto" id="mainNav">
           <li class="dropdown">
 	        <a class="nav-link dropdown-toggle" href="#experience" aria-haspopup="true" aria-expanded="false">
 	          Experience
@@ -72,17 +72,19 @@
 	          <a class="dropdown-item" href="#blackjack">Blackjack</a>
 	        </ul>          
 	      </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" target="_blank" href="./assets/resume.pdf">Resume</a>
           </li>
         </ul>
         <div class="row text-center">
 			<div class="col-xs-4">
-				<a href="mailto:couragyn@gmail.com">
-					<img id="gmail" src="assets/images/gmail.png" class="img-header" alt="Email">
+				<a target="_blank" href="./assets/resume.pdf">
+					<img id="gmail" src="assets/images/resume.png" class="img-header" alt="Resume">
+				</a>
+			</div>
+			<div class="col-xs-4">
+				<a target="_blank" href="https://github.com/couragyn">
+					<img src="assets/images/github.png" class="img-header" alt="Github">
 				</a>
 			</div>
 			<div class="col-xs-4">
@@ -91,22 +93,22 @@
 				</a>
 			</div>
 			<div class="col-xs-4">
-				<a target="_blank" href="https://github.com/couragyn">
-					<img src="assets/images/github.png" class="img-header" alt="Github">
+				<a href="mailto:couragyn@gmail.com">
+					<img id="gmail" src="assets/images/gmail.png" class="img-header" alt="Email">
 				</a>
 			</div>
 		</div>
     </nav>
 
-  	<section class="hero">
+  	<section class="hero menuItem">
 	  <div class="hero-text">
 	    <h1>Couragyn Chretien</h1>
 	    <h2>Web Developer</h2>
-	    <h4>Couragyn@gmail.com</h4>
+	    <h4>couragyn@gmail.com</h4>
 	  </div>
 	</section>
     <main role="main" class="container">
-    	<div id="experience" class="jumbotron">
+    	<div id="experience" class="jumbotron menuItem">
     		<div class="container-fluid">
     			<h1>Experience</h1>
     			<hr class="my-4">
@@ -114,10 +116,9 @@
   			  		<a href="http://www.highwaythreesolutions.com/">
 	    				<img src="assets/images/h3.png" class="img-company" alt="H3">
 	    			</a>
-	  			  	<h2 >Web Developer</h2>
-	    			<h3>Highway Three Solutions</h3>
+	  			  	<h2 >Web Developer — Highway Three Solutions</h2>
 	    			<h5>Victoria, BC</h5>
-	    			<h5>July 2017 - Current</h5>
+	    			<h5>July 2017 — Current</h5>
 	    			<p>Created and maintained applications for a variety of clients in and Agile environment. Created feasibility reports on prospective technologies and features based on existing infrastructure.</p>
 	    			<table class="table borderless">
 	    				<tr>
@@ -141,10 +142,9 @@
 	    			<a href="https://lighthouselabs.ca/">
 	    				<img src="assets/images/lhl.png" class="img-company" alt="LHL">
 	    			</a>
-	    			<h2>Mentor</h2>
-	    			<h3>Lighthouse Labs</h3>
+	    			<h2>Mentor — Lighthouse Labs</h2>
 	    			<h5>Victoria, BC</h5>
-	    			<h5>October 2017 - Current</h5>
+	    			<h5>October 2017 — Current</h5>
 	    			<p>Provided guidance and advise for Web Development Bootcamp Students.</p>
 	    			<table class="table borderless">
 	    				<tr>
@@ -166,10 +166,9 @@
 	    			<a href="https://www.velsoft.com/">
 	    				<img src="assets/images/velsoft.png" class="img-company" alt="Velsoft">
 	    			</a>
-	    			<h2>Programmer</h2>
-	    			<h3>Velsoft</h3>
+	    			<h2>Programmer — Velsoft Training Materials</h2>
 	    			<h5>Halifax, NS</h5>
-	    			<h5>April 2014 - August 2014</h5>
+	    			<h5>April 2014 — August 2014</h5>
 	    			<strong>Work Term</strong>
 	    			<p>Maintained the existing system by adding new features and modules, as well as hunting bugs.</p>
 	    			<table class="table borderless">
@@ -188,10 +187,9 @@
 	    			<a href="https://aliant.bell.ca/">
 	    				<img src="assets/images/bell.png" class="img-company" alt="Bell">
 	    			</a>
-	    			<h2>Junior Programmer</h2>
-	    			<h3>Bell Aliant</h3>
+	    			<h2>Junior Programmer — Bell Aliant</h2>
 	    			<h5>Halifax, NS</h5>
-	    			<h5>April 2013 – Aug 2013</h5>
+	    			<h5>April 2013 — Aug 2013</h5>
 	    			<strong>Work Term</strong>
 	    			<p>Created custom intranet. Made specialised SharePoint spaces. Developed reports with Visual Basic.</p>
 	    			<table class="table borderless">
@@ -208,12 +206,11 @@
 	    		<hr class="my-4">
 	    		<div id="lrl" class="container-fluid offset-anchor">
 	    			<a href="https://www.ledroadwaylighting.com">
-	    				<img src="assets/images/lrl.png" class="img-company" alt="LRL">
+	    				<img src="assets/images/lrl.jpg" class="img-company" alt="LRL">
 	    			</a>
-	    			<h2>Sharepoint Developer</h2>
-	    			<h3>LED Roadway Lighting</h3>
+	    			<h2>Sharepoint Developer — LED Roadway Lighting</h2>
 	    			<h5>Halifax, NS</h5>
-	    			<h5>April 2012 – Aug 2012</h5>
+	    			<h5>April 2012 — Aug 2012</h5>
 	    			<strong>Work Term</strong>
 	    			<p>Developed custom workflows in SharePoint. Provided Help Desk support.</p>
 	    			<table class="table borderless">
@@ -228,32 +225,31 @@
     		</div>
     	</div>
 
-    	<div id="education" class="jumbotron">
+    	<div id="education" class="jumbotron menuItem">
     		<div class="container-fluid">
     			<h1>Education</h1>
     			<hr class="my-4">
-    			<div id="dal" class="container-fluid offset-anchor">
-    				<a href="https://www.dal.ca/faculty/site/disciplines/it/informatics.html">
-	    				<img src="assets/images/dal.png" class="img-company" alt="Dalhousie">
-	    			</a>
-	    			<h3>Dalhousie University</h3>
-	    			<h6>Bachelor of Informatics</h6>
-	    			<h6><i><li>Rebranded Applied Computer Science</li></i></h6>
-	    			<h6>Minor in Management</h6>
-		    		<h5>2010 – 2015</h5>
-		    	</div>
-		    	<hr class="my-4">
-		    	<div id="lighthouseStudent" class="container-fluid offset-anchor">
+    			<div id="lighthouseStudent" class="container-fluid offset-anchor">
 		    		<a href="https://www.lighthouselabs.ca/web-bootcamp">
 	    				<img src="assets/images/lhl.png" class="img-company" alt="LHL">
 	    			</a>
 	    			<h3>Lighthouse Labs</h3>
-	    			<h6>Web Development Bootcamp</h6>
+	    			<h5>Web Development Bootcamp</h5>
 		    		<h5>2017</h5>
+		    	</div>
+		    	<hr class="my-4">
+    			<div id="dal" class="container-fluid offset-anchor">
+    				<a href="https://www.dal.ca/faculty/site/disciplines/it/informatics.html">
+	    				<img src="assets/images/dal.png" class="img-company" alt="Dalhousie">
+	    			</a>
+	    			<h2>Dalhousie University</h2>
+	    			<h5>Bachelor of Applied Computer Science, Minor in Management</h5>
+		    		<h5>2010 — 2015</h5>
 		    	</div>
     		</div>
     	</div>
-    	<div id="project" class="jumbotron">
+
+    	<div id="project" class="jumbotron menuItem">
     		<div class="container-fluid">
     			<h1>Projects</h1>
 		    	<hr class="my-4">
@@ -361,7 +357,7 @@
 		    	</div>
     		</div>
     	</div>
-    	<div id="skills" class="jumbotron">
+    	<div id="skills" class="jumbotron menuItem">
     		<div class="container-fluid">
     			<h1>Skills</h1>
     			<hr class="my-4">
@@ -404,9 +400,6 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
   </body>
 </html>
