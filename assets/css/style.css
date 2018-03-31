@@ -43,7 +43,7 @@ body, html {
 }
 
 .active {
-  color: #E8ECEF !important;;
+  color: #E8ECEF !important;
 }
 
 .hero-text h1 {
@@ -80,7 +80,7 @@ body, html {
 }
 
 ul.navbar-nav li.dropdown:hover ul.dropdown-menu {
-    display: block;
+  display: block;
 }
 
 .img-centre {
@@ -92,7 +92,7 @@ hr {
 }
 
 .nav a{
-  font-size: 1.15em !important;
+  font-size: 16px !important;
 }
 
 .borderless > thead > tr > th,
