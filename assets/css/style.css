@@ -51,8 +51,7 @@ body, html {
 }
 
 .img-header {
-	height: 45px;
-	padding-right: 10px;
+	height: 30px;
 }
 
 .img-company {
@@ -88,10 +87,19 @@ ul.navbar-nav li.dropdown:hover ul.dropdown-menu {
   text-align: center;
 }
 
-.borderless td, .borderless th {
-  border: none;
-}
-
 hr {
   border-top: 3px double #8c8b8b;
+}
+
+.nav a{
+  font-size: 1.15em !important;
+}
+
+.borderless > thead > tr > th,
+.borderless > tbody > tr > th,
+.borderless > tfoot > tr > th,
+.borderless > thead > tr > td,
+.borderless > tbody > tr > td,
+.borderless > tfoot > tr > td {
+  border-top: none;
 }
